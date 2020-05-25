@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".listItemActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/goToItemAddButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FFBF75"
+            android:fontFamily="@font/lato"
+            android:onClick="goToAddItem"
+            android:text="Ajouter un ingrédient"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ListView
+                    android:id="@+id/itemListView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="350dp"
+                    android:divider="@drawable/ligne"
+                    android:dividerHeight="0.1dp"
+                    android:fontFamily="@font/lato"
+                    android:headerDividersEnabled="false"
+                    android:scrollbars="vertical"
+                    android:visibility="visible"
+                    tools:visibility="visible" />
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:background="#FFFFFF"
+            android:gravity="bottom|end"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteX="16dp">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="2dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="home"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/home" />
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="2dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/search" />
+
+            <ImageButton
+                android:id="@+id/imageButton11"
+                android:layout_width="2dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ajouter" />
+
+            <ImageButton
+                android:id="@+id/imageButton12"
+                android:layout_width="2dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/notification" />
+
+            <ImageButton
+                android:id="@+id/imageButton13"
+                android:layout_width="2dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/tom2" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

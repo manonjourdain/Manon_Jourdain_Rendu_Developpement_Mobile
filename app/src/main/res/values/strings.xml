@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">RenduMineurTech</string>
+
+    <string name="user_name">Tom</string>
+    <string name="nb_recettes">4 Recettes</string>
+    <string name="nb_abonnes">87 Abonnés</string>
+    <string name="description">Étant vegan depuis 4 ans, je réalise des recettes originales 100% sans viandes, mais 100% incroyables ! N’hesitez pas à liker mes créations !</string>
+    <string name="modify">Modifier mon profil</string>
+    <string name="tom_recipes">Recettes de Tom</string>
+    <string name="coconut">Tarte à la noix de coco express</string>
+    <string name="coconut_comment"> “Très facile à réaliser, je la recommende !”</string>
+    <string name="coconut_likes">38 J\'aime</string>
+    <string name="coconut_thoughts">13 avis</string>
+
+
+    <string name="join">Rejoignez-nous</string>
+    <string name="connexion">Se connecter</string>
+    <string name="discover">DÉCOUVREZ DE NOUVELLES RECETTES MODIFIABLES SELON VOS ENVIES !</string>
+    <string name="description_tom">“Je ne rêve plus d’un bon gros burger comme au bon vieux temps depuis que j’ai trouvé l’alternatif vegan :)”</string>
+
+
+
+</resources>
+
